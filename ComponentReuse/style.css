@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Montserrat:ital,wght@0,400;1,500;1,700&family=Oleo+Script:wght@700&family=Updock&family=Whisper&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    /* background: #2980b9; 
+    background: -webkit-linear-gradient(to top, #2c3e50, #2980b9); 
+    background: linear-gradient(to top, #2c3e50, #2980b9); */
+    background: #B993D6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 96vh;
+}
+html{
+    font-size: 10px;
+}
+
+:root{
+    --Fondo-Sction:#fefefe;
+}
+
+h1{
+    margin-top:25px;
+    text-align: center;
+    font-family: 'Lobster', cursive,sans-serif;
+    font-size: 35px;
+    color:#fff;
+    text-shadow: -5px 6px 2px #2c3e50;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    margin: 70px auto;
+    width: 760px;
+    height: 500px;
+    background-color: #efefef;
+    box-shadow: inset 0px 0px 15px 0px #64b5f6,
+    inset 0px 0px 8px -1px #f403d1;
+    padding-top:20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius:20px ;
+}
+
+.question{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    width: 500px;
+    text-align: justify;
+    margin: 0 auto;
+    color:#065e74;
+    /* color: #efefef; */
+    font-weight: 600; 
+    padding: 0.7em;
+    /* background-color: aqua; */
+}
+
+.answer{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    /* background-color: blueviolet; */
+}
+
+.btn{
+    border-radius: 5px;
+    width: 320px;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    height: 50px;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    padding: .1em;
+    border-style: none;
+    background-color: rgba(0,0,0,.8);
+    color:  #fff;
+}
+
+.btn:hover{
+    box-shadow: 0px -3px 1px #49034679, 
+    0px 3px 1px #49034679;
+    filter: brightness(100%);
+    transition: .3s;
+}
+
+.results{
+    font-size: 1.8em;
+    padding: 25px 40px;
+}
+
+p{
+    margin: 15px 0px;
+}
+@media(MAX-WIDTH:800px){
+    .container{
+        width: 700px;
+        /* background-color:green; */
+        height: 500px;
+        margin:70px 0;
+    }
+    
+}
